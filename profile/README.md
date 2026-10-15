@@ -19,7 +19,8 @@ change it in small reviewed steps, draw the change before it is made and watch t
 5. After the change is compiled and downloaded by a person, **watch** shows the live values on the PLC. It only reads.
 
 Only one tool writes; the others read and check. Fail-safe (F) blocks are handled by hand, one named block at a time.
-Compiling the safety program, downloading to the PLC and going online stay in the hands of a person.
+Compiling the safety program and downloading to the PLC stay in the hands of a person; watch goes online
+only to an allowed address.
 
 ## Requirements
 
